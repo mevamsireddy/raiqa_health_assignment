@@ -1,0 +1,105 @@
+.list-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+
+.list-header h2 {
+    color: #333;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.list-controls button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.reset-button {
+    background-color: white;
+    color: #D73D46;
+    border: 1px solid #D73D46;
+    margin-right: 10px;
+}
+
+.reset-button:hover {
+    background-color: #f5c6cb;
+}
+
+.sort-button {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+.sort-button:hover {
+    background-color: #0056b3;
+}
+
+.list-items {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    background-color: #F9FAFC;
+    border-radius: 8px;
+}
+
+.list-item span:first-child {
+    font-weight: bold;
+    color: #333;
+}
+
+.list-item span:last-child {
+    color: #777;
+    font-size: 0.85rem;
+}
+
+.empty-message {
+    color: #777;
+    text-align: center;
+    padding: 15px;
+}
+
+.total-numbers {
+    padding: 10px 15px;
+    background-color: #EFF5FF;
+    border-radius: 8px;
+    color: #2739A7;
+    font-size: 1rem;
+}
+
+.highlight-min {
+    background-color: #e0f2fe;
+    border-left: 4px solid #38bdf8;
+}
+
+.highlight-max {
+    background-color: #dcfce7;
+    border-left: 4px solid #4ade80;
+}
+
+.highlight-min-max {
+    background-color: #f3e8ff;
+    border-left: 4px solid #c084fc;
+}
