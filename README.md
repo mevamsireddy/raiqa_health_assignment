@@ -1,4 +1,3 @@
-````markdown
 # Counter & List App
 
 A simple and clean single-page application built with **React** that lets users manage a dynamic list of numbers. You can increment or decrement a counter, add the current number to a list, sort the list, and reset it. The list state is also saved to the browser's local storage.
